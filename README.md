@@ -1,9 +1,11 @@
 **PIZZA-SALES**
 
 **OVERVIEW OF THE DATASET**
+
 Things are going OK here at Plato's, but there's room for improvement. They've been collecting transactional data for the past year, but really haven't been able to put it to good use. Hoping we can analyze the data and put together a report to help us find opportunities to drive more sales and work more efficiently.
 
 **DATA DICTIONARY**
+
 This pizza sales dataset make up 12 relevant features:
 order_id: Unique identifier for each order placed by a table
 order_details_id: Unique identifier for each pizza placed within each order (pizzas of the same type and size are kept in the same row, and the quantity increases)
@@ -32,7 +34,8 @@ pizza_name: Name of the pizza as shown in the menu
 
    
 **Analysis**
-Analysis was done on MSSQL and visualized on Power BI. I uploaded the dataset first on SQL Server, queried the dataset to generate insights. visualizing it on Power BI.
+
+Analysis was done on MSSQL and visualized on Power BI. I uploaded the dataset first on SQL Server, queried the dataset to generate insights. 
 
 **INSIGHTS**
 
@@ -63,7 +66,11 @@ Average order value - 38.31
 Average pizzas per order - 2.32
 
 **RECOMMENDATION**
-Pizza orders and revenue maintains an upward trajectory from the beginning of the week Sunday and peaks on Friday before it starts dropping, this means most people prefer to eat pizza towards and during the weekend. Most people prefer to have the Pepperoni pizza for lunch on Fridays. It is advisable to make available tables and chairs to be able to accomodate the influx of the weekend, we can also explore the option of delivery services. The Ingredients for Pepperoni pizza should be made readily available and in large quantities on or before Fridays. Since more orders are received on Fridays, a discount policy can be introduced every last Friday of the month where a customer gets 1 extra pizza when they buy 3 and above, this will encourage them to buy more
+Pizza orders and revenue shows an increasing rate from Sunday and peaks on Friday, then it starts dropping. This indicates that customers have a preference of ordering pizza during the beginning of weekend till saturday evening. It is recommended that all factors of production should be given utmost attention to so as to accomodate the large influx of orders. 
+
+I reecommend that the Extra-large pizza category be scraped since it is a poor performing category having contributed 0.08% of the total orders, a poor revenue of $1,006 and a total of 28 quantity of pizzas in total. The factors of production used on producing this category if used on high performance category will add to the revenue generated.
+
+The Ingredients for Pepperoni pizza should be made readily available and in large quantities on or before Fridays. Since more orders are received on Fridays, a discount policy can be introduced every last Friday of the month where a customer gets 1 extra pizza when they buy 3 and above, this will encourage them to buy more
 
 
 **DASHBOARD**
