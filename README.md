@@ -78,4 +78,5 @@ The Ingredients for Pepperoni pizza should be made readily available and in larg
 ![Best/worst sellers](https://github.com/jaybee30/PIZZA-SALES-/assets/106179938/ba0001ea-79d7-4d95-9794-c5464f0c7f07)
 ![Revenue](https://github.com/jaybee30/PIZZA-SALES-/assets/106179938/e628704d-278f-4d4b-a818-4c5561b396b7)
 
-
+THE LINK TO THE INTERACTIVE DASHBOARD CAN BE FOUND BELOW:
+https://app.powerbi.com/groups/me/reports/5c69f46c-b736-40a8-bb75-43c18f446a67?experience=power-bi
